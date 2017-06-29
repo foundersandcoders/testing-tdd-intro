@@ -29,3 +29,22 @@ function testDouble() {
 ```
 
 We can run `testDouble` to make sure that our `double` function is still returning the right value. Now if someone else needs to make changes to `double` they have an easy way to see if they broke anything.
+
+### Testing frameworks
+
+Testing like the example above won't get you very far, which is why we use frameworks to help us. We'll be using [Tape](https://github.com/substack/tape) on the course.
+
+Frameworks give you "assertions" like `equal`, `deepEqual` and `ok` to check your values. They also let you easily describe what you're testing and what result was expected, which gives you good test outputs that can act as bug reports when something goes wrong.
+
+A good starter template for writing tests with Tape would look something like this:
+
+```js
+// Answer these questions for each unit test you write:
+test('What component aspect are you testing?', function(assert) {
+  const actual = 'What is the actual output?';
+  const expected = 'What is the expected output?';
+
+  assert.equal(actual, expected, 'What should the feature do?');
+  assert.end();
+});
+```
