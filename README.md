@@ -56,7 +56,7 @@ Generally TDD follows the "red, green, refactor" cycle:
 
 ## Testing advice
 
-It's much easier "pure" functions. These are functions that always return the same thing if given the same input. The `double` function above is pure because no matter what number it's given we know what it will return.
+It's much easier to test "pure" functions. These are functions that always return the same thing if given the same input. The `double` function above is pure because no matter what number it's given we know what it will return.
 
 Making your functions single-purpose will also help you test them. You can combine lots of small functions with their own tests to achieve bigger results.
 
