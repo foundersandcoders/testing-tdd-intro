@@ -48,3 +48,19 @@ test('What component aspect are you testing?', function(assert) {
   assert.end();
 });
 ```
+
+## What is Test-driven Development?
+
+TDD is a methodology for writing code where you write the tests _before_ your functions. This way you are forced to really think through exactly what you want your code to do (i.e. what values your function takes and returns) before you start writing it. It's like planning an essay (if your plan could also tell you if you've got the right answer).
+
+You also end up with a complete test-suite for your code as soon as you're finished. This is valuable because it's harder to go back and write tests once you're done (especially if you don't do it right away).
+
+### TDD process
+
+Generally TDD follows the "red, green, refactor" cycle:
+
+1. Write a failing test. This ensures you understand the requirements. Having the test fail also demonstrates that there are no false positives (so you know it's your code causing it to pass). E.g. "`double` should take a number `num` and return it doubled".
+
+2. Make the test pass. This is where you actually write the code to do what you need. Make sure you don't cause any previous tests to fail.
+
+3. Refactor the code (if necessary) to improve it. You now have the test to show you when the code stops working, so you can be confident in making changes.
