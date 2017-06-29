@@ -46,6 +46,8 @@ You also end up with a complete test-suite for your code as soon as you're finis
 
 Generally TDD follows the "red, green, refactor" cycle:
 
+![](https://user-images.githubusercontent.com/9408641/27683709-e1c5e8c0-5cbe-11e7-99a4-215a5dae63f1.png)
+
 1. Write a failing test. This ensures you understand the requirements. Having the test fail also demonstrates that there are no false positives (so you know it's your code causing it to pass). E.g. "`double` should take a number `num` and return it doubled".
 
 2. Make the test pass. This is where you actually write the code to do what you need. Make sure you don't cause any previous tests to fail.
