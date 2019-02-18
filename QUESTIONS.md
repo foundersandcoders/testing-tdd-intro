@@ -20,7 +20,7 @@ Reference: [What Are Pure Functions And Why Use Them?](https://medium.com/@james
 Reference: [Tape - Guide](https://ci.testling.com/guide/tape)
 
 
-### How do we call the process of testing small chunks of code?
+### What do we call the process of testing small chunks of code?
 
 Reference: [Unit Testing](https://en.wikipedia.org/wiki/Unit_testing)
 
@@ -32,7 +32,7 @@ Reference: [Comparing Jasmine, Mocha, AVA, Tape and Jest](https://raygun.com/blo
 
 
 ### What are some known advantages of using TDD? 
-### How does using TDD can help develop an application that is more secure?
+### How can using TDD help develop an application that is more secure?
 
 Reference: [20 advantages of test driven development](https://apiumhub.com/tech-blog-barcelona/advantages-of-test-driven-development)
 
